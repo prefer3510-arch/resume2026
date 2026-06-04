@@ -89,6 +89,14 @@ header nav a {
   align-items: center;
 }
 
+.profile-line {
+  border: 0;
+  height: 1px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  background-color: #000;
+}
+
 .profile-left img {
   width: 350px;
   height: 400px;
@@ -240,52 +248,57 @@ h2 {
 }
 
 .end-line {
-  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 footer {
   margin-left: auto;
   margin-right: auto;
-  padding: 0 40px 0 40px;
 }
 
 #contact {
   background-color: #1a2b4c;
-  color: #fff;
-  padding: 60px 0 80px 0;
+  padding: 10px 0 50px 0;
   width: 100%;
-  margin-top: 40px;
 }
 
 .contact {
   color: #fff;
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 700;
   max-width: 1200px;
-  margin: 0 auto 50px auto;
-  text-align: left;
+  margin: 0 auto 30px auto;
+  text-align: center;
 }
 
 .last-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 220px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 40px;
+  gap: 5vw;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.last-icon > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  min-width: 150px;
 }
 
 .last-icon svg {
-  width: 160px;
-  height: 200px;
+  width: 80px;
+  height: 80px;
   fill: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 
 .last-icon a {
   color: #fff;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 500;
   transition: opacity 0.2s ease;
 }
@@ -335,29 +348,56 @@ footer {
   }
 
   .profile-box {
-    padding: 48px;
-    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    gap: 20px;
     max-width: 100%;
   }
 
+  .profile-line {
+    border: 0;
+    height: 1;
+    background-color: #000;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  .profile-left {
+    flex: 0 0 35%;
+    max-width: 260px;
+  }
+
   .profile-left img {
-    width: 260px;
-    height: 320px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     margin: 0;
   }
 
+  .profile-right {
+    flex: 1;
+    min-width: 0;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+
   .profile-right h2 {
-    font-size: 35px;
-    margin: 0 0 30px 20px;
+    font-size: 32px;
+    margin: 0 0 20px 20px;
   }
 
   .icon-list {
-    gap: 28px;
+    gap: 25px;
   }
 
   .icon-list > div {
     margin-left: 20px;
     gap: 15px;
+    max-width: 100%;
+    word-break: break-all;
   }
 
   .Education-part h2 {
@@ -418,24 +458,48 @@ footer {
     margin-top: 20px;
   }
 
+  #contact {
+    padding: 30px 0 60px 0;
+  }
+
   .contact {
-    font-size: 45px;
+    font-size: 30px;
     max-width: 100%;
-    margin: 0 0 30px 40px;
+    margin: 0 0 30px 0px;
+  }
+
+  .contact p {
+    text-align: center;
   }
 
   .last-icon {
-    gap: 80px;
+    display: flex;
+    gap: 5vw;
     padding: 0 20px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .last-icon > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    min-width: 150px;
+    word-break: keep-all;
+    overflow-wrap: break-word;
   }
 
   .last-icon svg {
-    width: 100px;
-    height: 120px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
   }
 
   .last-icon a {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -443,15 +507,15 @@ footer {
   header {
     flex-direction: column;
     min-height: auto;
-    padding: 30px 15px;
+    padding: 20px 10px;
     justify-content: center;
-    position: fixed;
+    position: absolute;
   }
 
   header h1 {
-    font-size: 32px;
+    font-size: 20px;
     max-width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     text-align: center;
     white-space: nowrap;
   }
@@ -483,7 +547,7 @@ footer {
   }
 
   .first-meet {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 1.4;
   }
 
@@ -583,48 +647,52 @@ footer {
   }
 
   .end-line {
-    margin-top: 15px;
+    margin-top: 25px;
+  }
+
+  #contact {
+    padding: 30px 0 30px 0;
   }
 
   .contact {
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
-    margin: 0 0 30px 0;
+    padding: 0;
+    margin: -10px 0 15px 0;
   }
 
   .last-icon {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
-    gap: 40px;
     padding: 0 10px;
     max-width: 100%;
   }
 
-  .email,
-  .instagram,
-  .github {
+  .last-icon > div {
     flex: 1;
+    min-width: 0;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 0;
+    text-align: center;
+    padding: 0 4px;
   }
 
   .last-icon svg {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 20px;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
   }
 
   .last-icon a {
-    font-size: 12px;
-    display: inline-block;
-    max-width: 100%;
-    word-break: keep-all;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+    font-size: 10px;
+    display: block;
+    width: 100%;
+    word-break: break-all;
+    white-space: normal;
   }
 }
 

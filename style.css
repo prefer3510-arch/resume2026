@@ -19,7 +19,6 @@ body {
 }
 
 header {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -122,16 +121,7 @@ header nav a {
   display: flex;
   align-items: center;
   gap: 30px;
-}
-
-.icon_name,
-.icon_birth,
-.icon_house,
-.icon_gender {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  margin: 0 0 0 40px;
+  margin-left: 40px;
 }
 
 .icon-list svg {
@@ -152,6 +142,16 @@ header nav a {
 .Education-part h2 {
   color: #0533d3;
   font-size: 60px;
+}
+
+.second-divider,
+.Education-divider,
+.strength-line,
+.weakness-line,
+.sw-lastline {
+  border: 0;
+  height: 1px;
+  background-color: #000000;
 }
 
 .second-divider {
@@ -178,18 +178,10 @@ h2 {
   margin-bottom: 20px;
 }
 
-.second-divider {
-  border: 0;
-  height: 1px;
-  background-color: #000000;
-}
-
 .Education-divider {
-  border: 0;
-  height: 1px;
-  background-color: #000000;
   margin: 0 0 40px 0;
 }
+
 /* 강점약점라인 */
 .strength-weakness {
   display: flex;
@@ -203,9 +195,6 @@ h2 {
 
 .strength-line,
 .weakness-line {
-  border: 0;
-  height: 1px;
-  background-color: #000000;
   margin: 0 0 40px 0;
 }
 
@@ -217,9 +206,6 @@ h2 {
 }
 
 .sw-lastline {
-  border: 0;
-  height: 1px;
-  background-color: #000000;
   margin: 60px 0;
 }
 
@@ -379,10 +365,7 @@ footer {
     gap: 28px;
   }
 
-  .icon_name,
-  .icon_birth,
-  .icon_house,
-  .icon_gender {
+  .icon-list > div {
     margin-left: 20px;
     gap: 15px;
   }
@@ -423,7 +406,6 @@ footer {
     border-radius: 40px;
   }
 
-  .experience-text-box,
   .experience__text-box {
     flex: 1;
     display: flex;
@@ -554,12 +536,6 @@ footer {
 
   .icon-list > div {
     justify-content: flex-start;
-  }
-
-  .icon_name,
-  .icon_birth,
-  .icon_house,
-  .icon_gender {
     margin-left: 10px;
     gap: 15px;
   }
@@ -607,7 +583,6 @@ footer {
     border-radius: 40px;
   }
 
-  .experience-text-box,
   .experience__text-box {
     width: 100%;
     text-align: center;

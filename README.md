@@ -4,4 +4,4 @@
 <br>
 
 ## 🚀 배포 주소
-* **Live Demo:** [[https://prefer3510-arch.github.io/resume2026/](https://prefer3510-arch.github.io/resume2026/)](https://prefer3510-arch.github.io/resume2026/)
+* **Live Demo:** https://prefer3510-arch.github.io/resume2026/

@@ -7,7 +7,7 @@ HTML과 CSS를 활용하여 제작한 반응형 포트폴리오 웹사이트입�
 확인할 수 있도록 제작하였습니다.
 
 ## 🎥 프로젝트 미리보기
-![portfolio]("C:\Users\user\Downloads\prefer3510-arch.github.io_resume2026_ (1).png")
+![portfolio](./project_capture.png)
 
 ## 👋 배포 주소
 **Seonoh-portfolio:** : https://prefer3510-arch.github.io/resume2026/

@@ -10,13 +10,13 @@ HTML과 CSS를 활용하여 제작한 반응형 포트폴리오 웹사이트입�
 
 <img src="./image/project_capture.png" alt="portfolio Preview" width="300">
 
-## 👋 배포 주소
+## 🔗 배포 주소
 
 - Portfolio Website ： https://prefer3510-arch.github.io/resume2026/
 
 ## 📅 제작 기간
 
-## 2026-05-29 ~ 2026-06-05
+- 2026-05-29 ~ 2026-06-05
 
 ## 🛠️ 사용 기술
 

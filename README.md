@@ -12,7 +12,7 @@ HTML과 CSS를 활용하여 제작한 반응형 포트폴리오 웹사이트입�
 
 ## 🔗 배포 주소
 
-- Portfolio Website ： [https://prefer3510-arch.github.io/resume2026/](https://github.com/prefer3510-arch/resume2026)
+- Portfolio Website ： https://prefer3510-arch.github.io/resume2026/
 
 ## 📅 제작 기간
 
